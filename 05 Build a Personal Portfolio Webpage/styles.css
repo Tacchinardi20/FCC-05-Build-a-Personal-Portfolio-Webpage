@@ -1,0 +1,109 @@
+body {
+    background-color: palegoldenrod;
+}
+
+#navbar {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: sienna;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar a {
+    color: black;
+    padding: 0.5em;
+}
+
+#navbar a:hover {
+    background-color: #e8ba5a;
+}
+
+#nav-main, #nav-about, #nav-contact_us {
+    text-decoration: none;
+}
+
+#welcome-section {
+    width: 100%;
+    height: 80vh;
+}
+
+header {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 44px;
+    padding-left: 100px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#projects a {
+    text-align: center;
+    display: block;
+}
+
+div {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#profile-link {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background-color: palevioletred;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-decoration: none;
+    left: 53%;
+    margin-left: -100px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Create four equal columns that float next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
